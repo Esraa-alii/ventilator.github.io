@@ -231,13 +231,13 @@ left: 216%;
     color: #3b536c;
     padding-left: 5%;
     position: absolute;
-    top: 266%;
+    top: 336%;
     width: 100%;
 }
 
 #tit{
 
-    width: 48%;
+    width: -47%;
     padding: 1%;
     border-right: solid 5px #4ca1af;
     border-bottom: solid 5px #4ca1af;
@@ -272,7 +272,7 @@ left: 216%;
         color: #3b536c;
         padding-left: 0.5%;
         position: absolute;
-        top: 153%;
+        top: 257%;
         width: 100%;
 }
 #ti{
