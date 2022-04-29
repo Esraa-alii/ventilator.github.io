@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Sansita+Swashed&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <img id="patient"src="patient-wearing-ventilator-lying-bed-operating-bed-during-surgery-process_33874-391.jpeg" alt="image">
+   <header>
+       <div class="head">
+        <div id="team" >TEAM 10</div>
+        <div id="ven"> Ventialtor Prototype </div>
+        <a href="home.html" id="about" target="_blank">Home</a>
+        <a id="sim" href="simulation.html" target="_blank">simulation</a>
+        
+        <a id="pro" href="prototype.html" target="_blank"> Prototype </a>
+       </div>
+    </header>
+       <div class="content">
+        <h1>Ventialtor</h1>
+        A ventilator is a machine that helps you breathe when you're sick, injured, or sedated for an operation. It pumps oxygen-rich air into your lungs. It also helps you breathe out carbon dioxide, a harmful waste gas your body needs to get rid of.
+       </div>
+       <div class="assum" id="assumption">
+           <h1 id="title">Assumption</h1>
+           <div class="a">
+               It is independent of the flow rate and of the direction of : 
+               <ul>
+            <li> Airway pressure.</li>
+            <li>Ambient pressure.</li>
+            <li> Inspiratory pressure.</li>
+            <li> Expiratory flow.</li>
+        </ul>
+            The amount of air entering is the same as the amount of air leaving.
+            
+    </div>
+
+       </div>
+       
+       
+       <div class="com">
+        <h1 id="titl">component</h1>
+        
+        <button type="button" id="one" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="Arduino Uno" data-bs-content="EGP350.00"><img class="ima"src="uno_r3.jpeg" alt="uno"></button> 
+        <button type="button" id="two" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="BreadBord" data-bs-content="EGP30.00"><img class="ima" src="16-570x696.jpeg" alt="BreadBord"></button>
+        <button type="button" id="three" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="40 Jumper Set Connecting Wire" data-bs-content="EGP35.00"><img class="ima" src="ph61_mm_new.jpeg" alt="wire"></button>
+        <button type="button" id="four" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="LM35 (temperature sensor)" data-bs-content="EGP25.00"><img class="ima" src="to92.jpeg" alt="tem"></button>
+        <button type="button" id="five" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="DHT 11 (Humidity sensor)" data-bs-content="EGP50.00"><img class="ima" src="DHT11.jpg" alt="hum"></button>
+        <button type="button" id="six" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="FSR (Pressure sensor)" data-bs-content="EGP120.00"><img class="ima" src="fsr.jpeg" alt="fsr"></button>
+        <button type="button" id="seven" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="LED" data-bs-content="EGP3.00"><img class="ima" src="5mm_led_clear.jpeg" alt="led"></button>
+        <button type="button" id="eight" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="Buzzer" data-bs-content="EGP5.00"><img class="ima" src="buzzer_new-300x300.jpeg" alt="led"></button>
+        <button type="button" id="nine" class=" component btn btn-lg btn-danger" data-bs-toggle="popover" title="Resistors" data-bs-content="EGP0.50"><img class="ima" src="5resistors.jpeg" alt="r"></button>
+
+
+        </div>
+        <div id="problem">
+            <h1 id="tit"> Problem we are trying to solve </h1>
+            <p class="first">
+                To deliver high concentrations of oxygen into the lungs.
+                ,To breathe for a person who is not breathing because of injury to the nervous system, like the brain or spinal cord, or who has very weak muscles.
+                ,To help get rid of carbon dioxide.
+                also , To decrease the amount of energy a patient uses
+                on breathing.
+            </p>
+            <div id="develop">
+                <h1 id="ti"> Problem that can develop from using
+                    ventilator include </h1>
+                <p class="first">
+                    Collapsed lung , 
+                     Side effects of medications ,<br>
+                    Infections: Patients who are on the ventilator are
+                    more likely to get pneumonia. <br>
+                     Lung damage : The pressure of putting air into
+                    the lungs with a ventilator can damage the lungs. 
+                </p>
+            
+ 
+
+        </div>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+/* header */
+header{
+    top: 0%;
+    display: flex;
+    /* right: 10%; */
+    position: absolute;
+    justify-content: center;
+    background-image: linear-gradient(to right , #3b536c,#4ca1af);
+    width: 100%;
+    height: 10%;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-size: x-large;
+    font-weight: bold;
+}
+.head{
+    width: 100%;
+    display: inline-flexbox;
+    position: absolute;
+    padding: 1%;
+    top: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: aliceblue;
+}
+#team{
+ position: absolute;
+ left: 7%
+
+}
+#ven{
+ position: absolute;
+left: 22%
+
+}
+#about{
+    position: absolute;
+    left: 59%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#sim{
+    position: absolute;
+    left: 67%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#pro{
+    position: absolute;
+    left: 77%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#team:hover{
+    color:rgb(238, 172, 172);
+}
+#ven:hover{
+    color:rgb(238, 172, 172);
+}
+#sim:hover{
+    color:rgb(238, 172, 172);
+}
+#pro:hover{
+    color:rgb(238, 172, 172);
+}
+#about:hover{
+    color:rgb(238, 172, 172);
+}
+/* end header */
+#patient{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 10%;
+    opacity: 90%;
+    z-index: 1;
+}
+.title{
+    left: 5%;
+    padding: 1%;
+    font-family: 'Lato', sans-serif;
+    color: #3b536c;
+    position: absolute;
+    top: 78%;
+    border-right:solid 5px #4ca1af;
+    border-bottom: solid 5px #4ca1af;
+}
+
+.title:hover{
+    border-left: solid 5px #4ca1af;
+    border-top: solid 5px #4ca1af;
+    border-right:solid 5px transparent;
+    border-bottom: solid 5px transparent;
+}
+#tink{
+    /* background-image: linear-gradient(to right, rgb(59, 83, 108), rgb(76, 161, 175)); */
+    background-color: rgb(76, 161, 175);
+    width: 10%;
+    position: absolute;
+    padding: 1%;
+    justify-content: center;
+    top: 80%;
+    left: 31%;
+    border-radius: 8%;
+    color: aliceblue;
+    font-family: Lato, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    border: rgb(76, 161, 175);
+}
+#tink:hover{
+    background-color:#3b536c;
+    /* color:#3b536c ; */
+}
+.image{
+    position: absolute;
+    top: 100%;
+    width: 80%;
+    height: 50%;
+    background-color: silver;
+    left: 10%;
+}
+#cod{
+    left: 7%;
+    top: 160%;
+}
+.co{
+    position: absolute;
+    top: 175%;
+}
+.code{
+    width: 52%;
+    height: 74%;
+    overflow: scroll;
+    background-color: rgb(247, 247, 247);
+    border: solid 4px rgb(76, 161, 175);
+    position: absolute;
+    top: 175%;
+    padding: 2%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    left: 21%;
+    cursor: initial;
+ 
+}
+.include{
+    color: rgb(13, 114, 99);
+}
+.comment{
+    color: rgb(104, 104, 104);
+    font-weight: 500;
+}
+.type{
+    color: rgb(39, 134, 169);
+}
+.oran{
+    color: rgb(211, 135, 20);
+}
+
+

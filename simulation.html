@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="simulation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Sansita+Swashed&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="IMG_1343.JPG" alt="image" id="patient">
+    <header>
+
+        <div class="head">
+         <div id="team" >TEAM 10</div>
+         <div id="ven"> Ventialtor Prototype </div>
+         <a href="home.html" id="about" target="_blank">Home</a>
+         <a id="sim" href="simulation.html" target="_blank">simulation</a>
+         
+         <a id="pro" href="prototype.html" target="_blank"> Prototype </a>
+        </div>
+     </header>
+     <h1 class="title">Using tinkercad </h1>
+
+
+
+     <a target="_blank" href="https://www.tinkercad.com/things/7OlMiYogice-steam-sterilizier/editel?sharecode=7WSfjZTanzY-18dAZV0BUp9pOELF3QqOTY3d8_eWxNY"><button id="tink"> Live demo</button></a>
+     <div class="image">image 1 </div>
+     
+     <h1 class="title" id="cod">Code </h1>
+     <div class="code">
+        <div><span class="include">#include</span> "DHT.h" <span class="comment">//calling library of DHT </span></div>
+        <div><span class="include">#define</span> DHTPIN 2 <span class="comment">// connevting the DHT to bin num 2 </span></div>
+        <div> <span class="type">int</span> buzzer=13;<span class="comment"> // connevting the buzzer to bin num 13 </span></div>
+        <div><span class="include">#define</span> DHTTYPE DHT11</div>
+        <div><span class="oran">DHT</span> dht(DHTPIN, DHTTYPE);</div>
+        <div><span class="type">void</span> <span class="include">setup</span>() {</div>
+        <div> <span class="oran"> Serial.begin</span>(9600);</div>
+        <div> dht.<span class="oran">begin</span>();}</div>
+        <div><span class="type">void</span> <span class="include">loop</span>() {</div>
+        <div>  <span class="oran">delay </span>(200); <span class="comment">// Wait a few seconds between measurements</span></div>
+        <div>   <span class="type"> float</span> h = dht.<span class="oran">readHumidity</span>();</div>
+        <div>  <span class="comment">// Reading temperature or humidity takes about 250 milliseconds!</span>
+        <div>   <span class="type">float</span> t = dht.<span class="oran">readTemperature</span>();</div>
+        <div>   <span class="comment">// Read temperature as Celsius (the default)</span></div>
+        <div> <span class="type">float</span> f = dht.<span class="oran">readTemperature</span>(true);</div>
+        <div> <span class="comment"> // Compute heat index in Fahrenheit (the default)</span></div>
+        <div> <span class="type">float</span> hif = dht.<span class="oran">computeHeatIndex</span>(f, h);</div>
+        <div><span class="comment">// Compute heat index in Celsius (isFahreheit = false)</span></div>
+        <div><span class="type">float</span> hic = dht.<span class="oran">computeHeatIndex</span>(t, h, false);</div>
+        <div> <span class="oran">Serial.print</span> ("Humidity: ");</div>
+        <div> <span class="oran">Serial.print</span> (h);</div>
+        <div> <span class="oran">Serial.print</span> (" %\t");</div>
+        <div> <span class="oran">Serial.print</span> ("Temperature: ");</div>
+        <div><span class="oran">Serial.print</span> (t);</div>
+        <div> <span class="oran">Serial.print</span> (" *C ");</div>
+        <div> <span class="oran">Serial.print</span> (f);</div>
+        <div> <span class="oran">Serial.print</span> (" *F\t");</div>
+        <div> <span class="oran">Serial.print</span> ("Heat index: ");</div>
+        <div> <span class="oran">Serial.print</span> (hic);</div>
+        <div><span class="oran">Serial.print</span> (" *C ");</div>
+        <div><span class="oran">Serial.print</span> (hif);</div>
+        <div> <span class="oran">Serial.println</span> (" *F");</div>
+        <div> <span class="include">if</span>( h &#60; 20 || h 	&#62; 28 ||t &#60; 20 || t	&#62;39){</div>
+        <div> <span class="oran">tone</span>(buzzer, 1000); <span class="comment"> // Send 1KHz sound signal</span></div>
+        <div> <span class="oran">delay</span>(1000);        <span class="comment">// ...for 1 sec</span></div>
+        <div> <span class="oran">noTone</span>(buzzer);    <span class="comment"> // Stop sound...</span></div>
+        <div>  <span class="oran">delay</span>(1000);        <span class="comment">// ...for 1sec</span></div>
+        <div>  }  </div>
+        <div>}</div>
+     </div>
+          
+</body>
+</html>

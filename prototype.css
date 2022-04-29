@@ -1,0 +1,91 @@
+/* header */
+header{
+    top: 0%;
+    display: flex;
+    /* right: 10%; */
+    position: absolute;
+    justify-content: center;
+    background-image: linear-gradient(to right , #3b536c,#4ca1af);
+    width: 100%;
+    height: 10%;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-size: x-large;
+    font-weight: bold;
+}
+.head{
+    width: 100%;
+    display: inline-flexbox;
+    position: absolute;
+    padding: 1%;
+    top: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: aliceblue;
+}
+#team{
+ position: absolute;
+ left: 7%
+
+}
+#ven{
+ position: absolute;
+left: 22%
+
+}
+#about{
+    position: absolute;
+    left: 59%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#sim{
+    position: absolute;
+    left: 67%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#pro{
+    position: absolute;
+    left: 77%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#team:hover{
+    color:rgb(238, 172, 172);
+}
+#ven:hover{
+    color:rgb(238, 172, 172);
+}
+#sim:hover{
+    color:rgb(238, 172, 172);
+}
+#pro:hover{
+    color:rgb(238, 172, 172);
+}
+#about:hover{
+    color:rgb(238, 172, 172);
+}
+/* end header */
+#im{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 10%;
+    opacity: 90%;
+    z-index: 1;
+}
+#last{
+    left: 27%;
+    top: 47%;
+    position: absolute;
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    color: aliceblue;
+    z-index: 2;
+    font-size: 76px;
+    font-weight: bolder;
+
+
+}
