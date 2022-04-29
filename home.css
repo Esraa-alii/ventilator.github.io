@@ -237,10 +237,12 @@ left: 216%;
 
 #tit{
 
-    width: 40%;
+    width: 48%;
     padding: 1%;
-    border-right:solid 5px #4ca1af;
+    border-right: solid 5px #4ca1af;
     border-bottom: solid 5px #4ca1af;
+    position: absolute;
+    top: 40%;
 }
 #tit:hover{
     border-left: solid 5px #4ca1af;
