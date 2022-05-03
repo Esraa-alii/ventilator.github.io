@@ -89,3 +89,82 @@ left: 22%
 
 
 }
+#title{
+
+    position: absolute;
+    width: 18%;
+    padding: 1%;
+    border-right: solid 5px #4ca1af;
+    border-bottom: solid 5px #4ca1af;
+    top: 75%;
+    left: 3%;
+    font-family: 'Lato', sans-serif  ;
+    font-size: xxx-large  ;
+    
+    color: #3b536c;
+}
+#title:hover{
+    border-left: solid 5px #4ca1af;
+    border-top: solid 5px #4ca1af;
+    border-right:solid 5px transparent;
+    border-bottom: solid 5px transparent;
+}
+.connection{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: white;
+    color: white;
+    font-family: 'Lato', sans-serif !important ;
+    font-size: large !important ;
+
+}
+.connection:focus{
+    color: white;
+    background-color: white;
+    border-color: white;
+}
+.connection:hover{
+    color: white;
+    background-color: white;
+    border-color: white;   
+}
+.ima{
+    width: 143%;
+    height: 143%;
+}
+.popover-header{
+    font-family: 'Lato', sans-serif  ;
+    font-size: large  ;
+    background-color: #3b536c;
+    color: aliceblue;
+}
+.popover-body{
+    font-family: 'Lato', sans-serif  ;
+    font-size: large  ;
+    color: #3b536c;
+}
+#one{
+    top: 95%;
+    left: 5%;
+
+}
+#two{
+ top: 95%;
+left: 60%;
+}
+#three{
+    width: 17%;
+    top: 136%;
+    left:2%;
+    height: 23%;
+
+}
+#four{
+    width: 12%;
+    top: 136%;
+    left: 60%;
+    height: 23%;
+}
+
