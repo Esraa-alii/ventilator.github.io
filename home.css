@@ -1,3 +1,4 @@
+
 #patient{
     position: absolute;
     width: 100%;
@@ -8,6 +9,7 @@
 }
 /* header */
 header{
+    left: 0%;
     top: 0%;
     display: flex;
     /* right: 10%; */
