@@ -13,7 +13,7 @@ header{
     font-size: x-large;
     font-weight: bold;
 }
-.head{
+.Head{
     width: 100%;
     display: inline-flexbox;
     position: absolute;
@@ -115,19 +115,27 @@ left: 22%
 }
 .image{
     position: absolute;
-    top: 100%;
-    width: 80%;
+    
     height: 50%;
-    background-color: silver;
+    width: 80%;
     left: 10%;
+}
+#i1{
+    top: 94%;
+}
+#i2{
+    top: 150%;
+}
+#i3{
+    top: 206%;
 }
 #cod{
     left: 7%;
-    top: 160%;
+    top: 265%;
 }
 .co{
     position: absolute;
-    top: 175%;
+    top: 270%;
 }
 .code{
     width: 52%;
@@ -136,13 +144,15 @@ left: 22%
     background-color: rgb(247, 247, 247);
     border: solid 4px rgb(76, 161, 175);
     position: absolute;
-    top: 175%;
+    top: 279%;
     padding: 2%;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     left: 21%;
     cursor: initial;
+    margin-bottom: 2%;
+
  
 }
 .include{
@@ -159,4 +169,35 @@ left: 22%
     color: rgb(211, 135, 20);
 }
 
+#ard{
+    position: absolute;
+    top: 290%;
+}
+#hub{
+    background-color: rgb(76, 161, 175);
+    width: 18%;
+    position: absolute;
+    padding: 1%;
+    justify-content: center;
+    top: 80%;
+    left: 45%;
+    border-radius: 6%;
+    color: aliceblue;
+    font-family: Lato, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    border: rgb(76, 161, 175);
+
+}
+#hub:hover{
+    background-color:#3b536c;
+    /* color:#3b536c ; */
+}
+#space{
+    width: 1%;
+    height: 2%;
+    position: absolute;
+    top: 357%;
+
+}
 
